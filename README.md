@@ -4,8 +4,8 @@ Minimal reproduction of virtual scrolling using Swiper library and using Virtual
 
 # To Run:
 
-npm i
-npm run dev
+1. npm i
+2. npm run dev
 
 # Routes:
 
