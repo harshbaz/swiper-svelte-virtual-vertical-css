@@ -16,5 +16,5 @@ Without virtual scrolling:
 
 With virtual module:
 
-- https://localhost:5173/virtual
+- http://localhost:5173/virtual
   A single slide takes a huge height value and does not work properly
