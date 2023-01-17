@@ -15,7 +15,6 @@
 </script>
 
 <main class="border h-screen w-full">
-	<pre class="text-bold fixed z-5 top-0 left-0">currentSlide: {currentSlideIndex}</pre>
 	<Swiper
 		slidesPerView={1}
 		spaceBetween={50}
@@ -29,7 +28,11 @@
 			<SwiperSlide
 				class="h-full border border-red-500 snap-always flex items-center justify-center w-full"
 			>
-				<img alt="im" class="h-1/2 px-10" src={slide} />
+				<div class="h-full flex items-center justify-center w-full">
+					<pre
+						class="text-bold absolute z-5 top-0 left-0">virtualSlides: {virtualSlides.length}, currentSlide: {currentSlideIndex}</pre>
+					<img alt="im" class="h-1/2 px-10" src={slide} />
+				</div>
 			</SwiperSlide>
 		{/each}
 	</Swiper>
