@@ -35,7 +35,7 @@
 				virtualIndex={from + index}
 				style={`top: ${offset}px`}
 			>
-				<img alt="im" class="w-1/2" src={slide} />
+				<img alt="im" class="h-1/2 px-10" src={slide} />
 			</SwiperSlide>
 		{/each}
 	</Swiper>

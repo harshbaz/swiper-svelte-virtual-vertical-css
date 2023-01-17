@@ -29,7 +29,7 @@
 			<SwiperSlide
 				class="h-full border border-red-500 snap-always flex items-center justify-center w-full"
 			>
-				<img alt="im" class="w-1/2" src={slide} />
+				<img alt="im" class="h-1/2 px-10" src={slide} />
 			</SwiperSlide>
 		{/each}
 	</Swiper>
